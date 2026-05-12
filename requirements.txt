@@ -23,8 +23,8 @@ scipy==1.17.1
 
 requests==2.32.5
 python-dotenv==1.0.1
-
 PyMuPDF==1.25.5  
 pypdf==4.3.1
 pytesseract==0.3.13
 pillow==10.4.0
+
