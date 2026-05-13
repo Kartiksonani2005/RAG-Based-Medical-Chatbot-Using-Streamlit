@@ -9,6 +9,8 @@ from chain.rag_chain import get_rag_chain
 from ingestion.pdf_loader import process_uploaded_pdf
 from ingestion.ocr_loader import process_uploaded_image
 
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 load_dotenv()
 
 st.set_page_config(

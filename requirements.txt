@@ -13,10 +13,10 @@ langchain-pinecone==0.2.0
 langchain-text-splitters==0.3.2
 
 huggingface_hub==1.8.0
-transformers
-sentence-transformers
+transformers==4.38.2
+sentence-transformers==2.7.0
 
-torch==2.2.2+cpu
+torch==2.1.2+cpu
 
 pinecone-client==5.0.1
 groq==0.37.1
